@@ -1,0 +1,11 @@
+a=list(map(int,(input())))
+a.sort()
+even=[]
+odd=[]
+for i in range(len(a)):
+  if a[i]%2==0:
+    even.append(a[i])
+  else:
+     odd.append(a[i])
+print(*even)
+print(*odd)
